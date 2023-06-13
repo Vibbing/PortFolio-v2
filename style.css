@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Chakra+Petch:wght@700&family=Roboto:wght@300&display=swap');
+
+
+:root {
+    --primary-color: #047857
+}
+body {
+    font-family: 'Baloo 2', cursive;
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 250px;
+    margin: auto;
+}
+
+.container-fluid {
+    
+}
+
+/* links */
+
+.link {
+    text-decoration: none;
+    padding:  0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
